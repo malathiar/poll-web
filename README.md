@@ -105,7 +105,7 @@ app.listen(5000);
 Now you can run the express server to serve your angular application:
 
 ```sh
-$ nodemon server.js
+$ node server.js
 ```
 
 Put the following code into ```app.html```:
