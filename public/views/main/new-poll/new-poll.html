@@ -7,7 +7,7 @@
 				<input type="text" class="form-control" id="question" ng-model='poll.question' placeholder="Ask whatever you want">
 			</div>
 		</div>
-		<div ng-repeat='option in poll.options track by $index'>
+		<div ng-repeat='option in poll.options track by 4'>
 			<div class="form-group">
 				<label class="col-xs-12 col-sm-2 control-label" for="option{{$index + 1}}">Option {{$index + 1}}</label>
 				<div class="col-xs-10 col-sm-6">
