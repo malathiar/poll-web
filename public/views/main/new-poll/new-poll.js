@@ -7,7 +7,7 @@ angular.module('pollApp')
 		};
 		$scope.delete_option = function(index) {
 			if ($scope.poll.options.length > 4)
-				$scope.poll.options.splice(index, 1);
+				$scope.poll.options.splice(index, 2);
 		};
 		$scope.add_new_option = function() {
 			if ($scope.poll.options.length < 10)
